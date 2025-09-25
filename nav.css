@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: aqua;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    
+}
+nav > h2{
+    color: red;
+    /* position: sticky; */
+    /* top: 100px; */
+}
+ nav > ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 20px;
+ }
+ nav > ul > li{
+    border: 2px solid black;
+ }
+
+ 
+ div > .button > .b1{
+    color: red;
+    font-weight: bold;
+    border: 2px solid green;
+    background-color: red;
+ }

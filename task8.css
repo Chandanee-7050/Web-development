@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    background-color: rgb(220, 236, 150);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner{
+    background-image: url(https://picfiles.alphacoders.com/960/9601.jpg);
+    height: 80%;
+    width: 90%;
+}
+
+.inner > nav{
+    background-color: bisque;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav > ul{
+    display: flex;
+    gap: 80px;
+    text-transform: uppercase;
+    
+}
+
+nav > ul > li{
+    list-style: none;
+    font-size: 14px;
+    
+}
+
+nav > h3{
+    font-size: 20px;
+    color: red;
+    text-shadow: 0px 2px 3px yellow;
+    text-transform: uppercase;
+}
+
+.inner > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    gap: 30px;
+}
+
+.inner > ul > li{
+    color: white;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.inner > h1{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 30px;
+    text-shadow: 0px 2px 3px black;
+}
+
+.inner > p{
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10px;
+    text-shadow: 0px 3px 5px red;
+}
+
+.inner > .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.inner > .btn > #b1{
+    text-align: center;
+    background-color: rgb(243, 245, 247);
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: black;
+    border: none;
+    box-shadow: 0px 2px 3px black;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.inner > .btn > #b1:hover{
+    color: black;
+    background-color: blue;
+}
+
+.inner > .btn > #b2{
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: black;
+    border: none;
+    box-shadow: 0px 2px 3px black;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.inner > .btn > #b2:hover{
+    color: black;
+    background-color: #dbeb48;
+}

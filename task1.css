@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div > .outer{
+   background-color: yellow;
+   border: 2px solid rgb(212, 198, 198);
+ 
+
+}
+div >.inner{
+  background-color: white;
+  border: 2px solid black;
+  width: 25%;
+  border-radius: 15px;
+  text-align: center;
+  padding: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+div > .inner > button{
+    margin: 10px 20px;
+    padding: 20px;
+    display: block;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(62, 62, 62);
+    width: 25%;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 15px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    border: none;
+
+}
+div > .inner > button:hover{
+  background-color: rgb(8, 0, 255);
+  color: black;
+  cursor: pointer;
+}
+ div > .inner > img{
+    height: 100px;
+    width: 150px;
+}
+div > .inner > p{
+    margin-bottom: 10px;
+    font-weight: bold
+}
+ div > .inner > p1{
+    font-style: italic;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+ div > .inner > h2{
+    color: red;
+    text-shadow: 12px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 2px purple;
+ }

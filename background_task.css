@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+
+    border: 2px solid black;
+}
+
+#c1{
+    background-image: url(https://img.etimg.com/thumb/width-1600,height-900,imgsize-25604,resizemode-75,msid-103458268/news/new-updates/discover-the-16-kalas-of-lord-krishna-timeless-wisdom-essential-for-a-balanced-life.jpg);
+
+}
